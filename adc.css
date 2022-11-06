@@ -1,0 +1,175 @@
+.img1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+.img4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 55px;
+    top: 20px;
+}
+.img5{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.text1{
+    font-size: 25px;
+    top: -100px;
+    position: relative;
+    left: 20%;
+}
+.pre1{
+    font-size: 20px;
+    top: -120px;
+    position: relative;
+    left: 20%;
+}
+.pre2{
+    font-size: 20px;
+    top: -120px;
+    position: relative;
+    left: 20%;
+}
+.pre3{
+    font-size: 20px;
+    top: -120px;
+    position: relative;
+    left: 20%;
+
+}
+.pre4{
+    font-size: 20px;
+    top: -160px;
+    position: relative;
+    left: 20%;
+    width: 30px;
+    height: 20px;
+
+}
+.recy{
+    font-size: 20px;
+    top: -140px;
+    position: relative;
+    left: 20%;
+}
+.pre5{
+    font-size: 20px;
+    top: -120px;
+    position: relative;
+    left: 20%;
+}
+#prod1{
+    background-color: orange;
+    width: 1050px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 11%;
+}
+
+.qnt1{
+    text-align: center;
+    position: relative;
+    width: 30px;
+    top: -130px;
+    left: 215px;
+    color: black;
+    font-size: 15px;
+}
+.qnt12{
+    text-align: center;
+    position: relative;
+    width: 30px;
+    top: -160px;
+    left: 215px;
+    color: black;
+    font-size: 15px;
+}
+
+.apa1{
+    font-size: 25px;
+    top: -160px;
+    position: relative;
+    left: 72%;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    
+}
+.apa2{
+    font-size: 25px;
+    top: -200px;
+    position: relative;
+    left: 72%;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    
+}
+.apa1:hover{
+    background-color: rgb(255, 72, 0);
+    border-color: white ;
+}
+.apa2:hover{
+    background-color: rgb(255, 72, 0);
+    border-color: white ;
+}
+#prod2{
+    background-color: orange;
+    width: 1050px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 11%;
+}
+#prod3{
+    background-color: orange;
+    width: 1050px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 11%;
+}
+#prod4{
+    background-color: red;
+    width: 1050px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 11%;
+}
+#prod5{
+    background-color: orange;
+    width: 1050px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 11%;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+}

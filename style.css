@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    height: 97.5vh;
+    width: 98vw;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 230px;
+    grid-template-columns: auto auto ;
+border-radius: 10px;
+
+    position: absolute;
+    top: 36%;
+    left: 19%;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -28%;
+
+}
+
+.grid-i{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    left: 90%;
+
+}
+
+
+
+
+.img2{
+    width: 90px;
+height: 90px;
+top: 45%;
+position: absolute;
+left: 32%;
+}
+.img3{
+    width: 80px;
+height: 80px;
+top: 50%;
+position: absolute;
+left: 38%;
+}
+.img4{
+    width: 130px;
+height: 130px;
+top: 38%;
+position: absolute;
+left: 30%;
+}
+
+.re{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    color: salmon
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+
+.re:hover{
+    color: rgb(255, 0, 0);
+}

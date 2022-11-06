@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        How to get/change the HTML with
+        DOM element in JavaScript?
+    </title>
+</head>
+  
+<body>
+  
+    <h1 id="titulo">Produtos</ h1>
+
+    <button onclick="mudarTitulo('R$123')">Apagar</button>
+    <button onclick="mudarTitulo('Item 2')">Item 2</button>
+    <button onclick="mudarTitulo('Item 3')">Item 3</button>
+    
+    <script>
+            function mudarTitulo(novoTitulo) {
+        document.querySelector("#titulo").innerHTML = novoTitulo;
+    }
+    </script>
+
+</body>
+  
+</html>

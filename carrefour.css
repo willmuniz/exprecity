@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+
+    background-color: rgb(189, 188, 185);
+
+}
+
+* {
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+    }
+    
+
+
+
+
+.imgi{
+	position: absolute;
+	top: 9.4%;
+    width: 1325px;
+    height: 250px;
+    left:10px;
+    border-radius: 10px;
+	} 
+
+    .grid-container {
+        display: grid;
+        column-gap: 16px;
+        grid-template-columns: auto auto auto auto;
+border-radius: 10px;
+
+        position: absolute;
+        top: 56%;
+        left: 1%;
+      }
+      
+      .grid-item {
+        background-color: white;
+        width: 275px;
+        height: 290px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+ 
+    }
+    .grid-container2 {
+        display: grid;
+        column-gap: 16px;
+        grid-template-columns: auto auto auto auto;
+border-radius: 10px;
+
+        position: absolute;
+        top: 126%;
+        left: 0%;
+      }
+      
+      .grid-item2 {
+        background-color:white;
+        width: 275px;
+        height: 290px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+ 
+    }
+    
+    .ra{
+        text-decoration: none;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 25px;
+        color: rgb(10, 10, 10);
+    }
+
+.re{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 17px;
+    color: rgb(241, 127, 74);
+    position: relative;
+    top: 46%;
+    left: -3%;
+}
+
+.img2{
+    width: 150px;
+height: 150px;
+top: 2%;
+position: absolute;
+left: 6.5%;
+}
+
+.img3{
+    width: 150px;
+height: 150px;
+top: 4%;
+position: absolute;
+left: 32%;
+}
+
+
+.img4{
+    width: 150px;
+height: 150px;
+top: 4%;
+position: absolute;
+left: 57.3%;
+}
+
+.img16{
+    width: 150px;
+height: 150px;
+    top: 5%;
+    position: absolute;
+    left: 82.5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(241, 255, 38);
+}
+.re:hover{
+    color: rgb(255, 0, 0);
+}
+.ra:hover{
+        color: rgb(255, 0, 0);
+}
+
+.img17{
+    width: 50px;
+    height:50px;
+    position: relative;
+    top: 30px;
+}
+.img18{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+}
+.img5{
+    width: 150px;
+height: 150px;
+position: relative;
+top:-37%;
+}
+
+.img6{
+    width: 150px;
+height: 150px;
+position: relative;
+top:-37%;
+}
+.img7{
+    width: 150px;
+height: 150px;
+position: relative;
+top:-37%;
+}
+
+.img8{
+    width: 170px;
+height: 170px;
+position: relative;
+top:-37%;
+}
+
+h2{
+    position: absolute;
+    left: 47%;
+    top:150%;
+    font-family: 'Alkalami', serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.f{
+font-size: 25px;
+margin-left: 2%;
+top:35%;
+position: relative;
+}
+.ins{
+margin-left: 20%;
+display: grid;
+top:40px;
+height: 40px;
+position: relative;
+
+
+}
+
+.ini{
+    margin-left: 20%;  
+    height: 0.1px;
+    top: 10px;
+    position: relative;
+}
+
+.meio{
+    margin-left: 4%;
+    display: grid;
+    top:-43%;
+    left: 40%;
+    height: 40px;
+    position: relative;
+    align-items: center;
+    
+    
+    }
+    
+    .me{
+        left: 40%;
+        margin-left: 4%;  
+        height: 0.1px;
+        top: -54%;
+        position: relative;
+       
+        
+    }
+
+
+    .img10{
+        width: 50px;
+        height:50px;
+        position: relative;
+
+        margin-bottom: -4%;
+   
+        top: -107%;
+        left:-28.1%;
+     
+
+
+
+    }
+    .img11{
+        width: 30px;
+        height:30px;
+        top:-104%;
+        position: relative;
+        left:-25%;
+        
+
+    display: inline;
+    }
+    .img12{
+        width: 60px;
+        height: 60px;
+        top:-110.2%;
+        position: relative;
+        left:-17.5%;
+   
+
+    display: inline;
+        
+
+    }
+
+    p{
+        left: 65%;
+        margin-left: 4%;  
+        height: 0.1px;
+        top: -84%;
+        position: relative;
+        font-size: 13px;
+    }
+
+    .img13{
+        width: 125px;
+        height: 120px;
+        position: relative;
+        top:-6px;
+        left: 45px;
+    }
+
+    .cop{
+        position: absolute;
+               background-color: rgb(255, 248, 184);
+               width: 1402px;
+        height: 120px;  
+            line-height:30px;
+        top:155%;
+        margin-left: -83%;
+        
+    }
+
+    .copy{
+        left: 0%;
+        top: 24%;
+        position: relative;
+        font-size: 15px;
+        color:red
+    }
+
+    .nom{
+        position: absolute;
+               background-color: rgb(255, 248, 184);
+               width: 1325px;
+        height: 40px;  
+            line-height:30px;
+        top:2%;
+        left: 11.5%;
+        margin-left: -11%;
+        border-radius: 10px;
+    }
+
+    .img14{
+    width: 50px;
+    height: 50px;
+    position: relative;
+top:-4px;
+}
+    .img15{
+        width: 55px;
+        height: 40px;
+        right: -8px;
+        }
+
+
+.p1{
+    position: relative;
+    top: 58%;
+    left: -2%;
+}
+
+.b1{
+    position: relative;
+    top: 72%;
+    left: -18%;
+height: 30px;
+}
+
+.b4{
+    position: relative;
+    top: 72%;
+    left: -18%;
+    height: 30px;
+}
+
+.qnt1{
+    position: relative;
+    top: 58%;
+    left: 28%;
+    text-align: center;
+}
+
+.b1:hover{
+    background-color: rgb(245, 185, 150);
+    border-radius: 5px;
+
+}
+.b4:hover{
+    background-color: rgb(245, 185, 150);
+    border-radius: 5px;
+
+}

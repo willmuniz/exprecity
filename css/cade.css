@@ -1,0 +1,51 @@
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+   background-color: rgb(255, 95, 21);
+    width: 90vw;
+    height: 130vh;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    position: absolute; 
+	left: 24.4%; 
+	top: 0%;
+
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.5);
+    position:absolute;
+    top:49%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+input{
+   width: 190px;
+   text-align: center;
+}
+
+.botao{
+    width: 100px;
+}
+
+h1{
+    position: absolute; 
+	left: 42.4%; 
+    font-size: 35px;
+
+}
+
+p{
+    left: 45%;
+    position: absolute; 
+}

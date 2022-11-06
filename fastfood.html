@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fast Food</title>
+        <!-- Favicon-->
+        <link rel="icon" type="imagem/png" href="img/exprecity.png" sizes="50x50"/>
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/fastfood.css" rel="stylesheet" />
+    </head>
+    <style>
+        .carrinho{
+            text-decoration: none;
+            color: black;
+          }
+    </style>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Exprecity</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="entrada.html" color="blue"0>Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="res.html">Restaurantes</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="Mercados.html">Mercado</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="recycle.html">Recycle</a></li>
+                        <li class="nav-item dropdown">
+                        
+                            
+                        
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            <a href="adc.html" class="carrinho">Carrinho</a>
+                           
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-orange">
+                    <h1 class="display-4 fw-bolder">Fast Food</h1>
+                    <p class="lead fw-normal text-orange mb-0">Esfihas, Pizzas, Lanches, Entre Outros</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <div class="badge bg-red text-red position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <img class="card-img-top" src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-3404-94f8d203466736828ba7971dcc59f6fb.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Pizza de Pepperoni</h5>
+                                    <!-- Product price-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <span class="text-muted text-decoration-line-through">R$35,00</span>
+                                    R$27,00 
+                                    <p>LOJA: Pizza Hut</p>
+                                </div>
+                                
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://www.acasaencantada.com.br/wp-content/uploads/2021/10/Hamburguer-vegano-de-grao-de-bico-1200x800.webp" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hambúrguer vegano de grão de bico</h5>
+                                    <!-- Product reviews-->
+                                    
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                       
+                                    </div>
+                                    <!-- Product price-->
+                                    R$8,99
+                                    <br>
+                                    <a href="lanchesgrelha.html" class="loja">Loja: Lanches na Grelha</a>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://assets.unileversolutions.com/recipes-v2/230411.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hambúrguer com Crispy de Cebola</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$10,99</span>
+                                    R$7,99
+                                    <p>LOJA: Hambúrguers do Bahia</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://img.estadao.com.br/thumbs/640/resources/jpg/0/0/1634213417200.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Milk Shake - 300ml</h5>
+                                    <!-- Product reviews-->
+                                    
+                                    <!-- Product price-->
+                                    R$11,50
+                                    <p>LOJA: Brudi</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzX1Xu4q/200/200/original?country=br" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Duplo Quarteirão </h5>
+                                    <!-- Product price-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <span class="text-muted text-decoration-line-through">R$24,99</span>
+                                    R$19,99
+                                    <p>LOJA: Mc Donald's </p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejhJ8ByWvSZYHPeixpoUReV9zWSAg-NbUvA&usqp=CAU" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Tradicionalissimo  4 Donuts </h5>
+          <br>                          <!-- Product price-->
+                                    R$49,99
+                                    <p>LOJA: Tradicionalissimo</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://i.pinimg.com/originals/ac/20/de/ac20de4a1d58e75603e2124221e22cdf.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">10 Bib's Esfihas</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$9,99</span>
+                                    R$5,90<br>
+                                    <a href="habibs.html" class="loja">Loja: Habib´s</a>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://images.fazendinha.me/production/produtor/505/produtos/4236/nuu-alimentos-pizza-brotinho-de-pao-de-queijo-nuu-linguicinha-com-alecrim-1654001642.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Pizza Liguiça com Queijo - Broto</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    R$12,99<br>
+                                    <a href="habibs.html" class="loja">Loja: Habib´s</a>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                          <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                        
+                                    </div>
+                                    </div>
+                                    </div>
+                                   
+                                    
+
+                                                
+                                                <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2017/10/acaicomnutella-26257.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Taça de Açaí - 500ml </h5>
+                                                            <!-- Product price-->
+                                                            R$27,90
+                                                            <p>LOJA: Gourmezitos</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Sale badge-->
+                                                    <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://saboresdacidade.com/wp-content/uploads/2017/12/917C5980-841F-4285-AB5D-1A5733711EF9.jpeg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Balde de Frango - 30 Coxas</h5>
+                                                            <!-- Product reviews-->
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                            </div>
+                                                            
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                               
+                                                            </div>
+                                                            <!-- Product price-->
+                                                            <span class="text-muted text-decoration-line-through">R$27,90</span>
+                                                            R$19,99
+                                                            <p>LOJA: KFC</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Sale badge-->
+                                                    <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://s2.glbimg.com/zVP26bXqfFceBGFAt4wrAdmL6t0=/0x0:1000x778/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/Y/l/Qj3x3sSreTfYZ7ujTuzg/guacamole-como-fazer.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                           <br><br> <!-- Product name-->
+                                                            <h5 class="fw-bolder">Porção Guacamole</h5>
+                                                            <!-- Product price-->
+                                                            <span class="text-muted text-decoration-line-through">R$26,99</span>
+                                                            R$17,99
+                                                            <p>LOJA: Eskentah Comida</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://www.reporterdiario.com.br/wp-content/uploads/2019/11/download-2.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Esfihas Tradicionais </h5>
+                                                            <!-- Product reviews-->
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                            </div>
+                                                            <!-- Product price-->
+                                                            R$4,99 - Cada<br>
+                                                            <a href="habibs.html" class="loja">Loja: Habib´s</a>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Sale badge-->
+                                                    <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://www.receitasedicasdochef.com.br/wp-content/uploads/2014/10/Receitas-de-Cheesecake.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Cheesecake de Morango</h5>
+                                                            <!-- Product price-->
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                            </div>
+                                                            <span class="text-muted text-decoration-line-through">R$24,99</span>
+                                                            R$14,99
+                                                            <p>LOJA: DonDoc</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://thumb-cdn.soluall.net/prod/shp_products/sp1280fw/5db0a0b8-a0bc-4bbe-b895-66acac1e00f4/5db0a0b8-e60c-41aa-ba12-66acac1e00f4.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Pizza de Espinafre com Bacon</h5>
+                                                            <!-- Product price-->
+                                                            R$29,99
+                                                            <p>LOJA: Papa's Pizzeria</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Sale badge-->
+                                                    <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://gastronominho.com.br/wp-content/uploads/2022/09/BK_DESTAQUE-5.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Combo Fenda do BK </h5>
+                                                            <!-- Product reviews-->
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                                <div class="bi-star-fill"></div>
+                                                            </div>
+                                                            <!-- Product price-->
+                                                            <span class="text-muted text-decoration-line-through">R$39,90</span>
+                                                            R$29,99
+                                                            <p>LOJA: Burger King</p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Product image-->
+                                                    <img class="card-img-top" src="https://images.tcdn.com.br/img/img_prod/341142/embalagem_cone_para_porcoes_diversas_pequeno_vermelho_100_un_968_1_20171005110521.jpg" alt="..." />
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                            <h5 class="fw-bolder">Cone de Batata Frita Grande</h5>
+                                                            <!-- Product reviews-->
+                                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                                
+                                                            </div>
+                                                            
+                                                            <!-- Product price-->
+                                                            R$27,99
+                                                            <p>LOJA: Dipz </p>
+                                                        </div>
+                                                    </div>
+                                                    <select class="qnt">
+                                                        <option value="#">Quantidade</option>           
+                                                        <option value="qt1">1</option>
+                                                        <option value="qt2">2</option>
+                                                        <option value="qt3">3</option>
+                                                        <option value="qt4">4</option>
+                                                        <option value="qt5">5</option>
+                                                        </select><br>
+                                            
+                                                    
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                        <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://hpg.com.br/wp-content/uploads/2022/05/cardapio-precos-bobs.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Combo Bob's Burger M </h5>
+                                    <!-- Product price-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    R$14,57
+                                    <p>LOJA: Bob's</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://static.baratocoletivo.com.br/2019/1011/oferta_15708301861262_destaque.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Barca de Açaí </h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                       
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$36,99</span>
+                                    R$27,99
+                                    <p>LOJA: Japa Açaí</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://www.mochileiros.com/blog/wp-content/uploads/2020/09/hellokitty03.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Bolo brigadeiro hello Kitty</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$19,90</span>
+                                    R$13,90
+                                    <p>LOJA: Café da Hello Kitty</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=640,h=360,fit=cover/wp-content/uploads/2022/03/img-8977.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Torta de Limão </h5>
+                                    <!-- Product reviews-->
+                                    
+                                    <!-- Product price-->
+                                    R$9,90
+                                    <p>LOJA: Cantinho da Dona Maria</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#"> Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://vamosprovar.files.wordpress.com/2015/10/mc-melt.png" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Duplo Cheddar </h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$22,90</span>
+                                    R$16,90
+                                    <p>LOJA: Mc Donald's</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2022/06/handler.jpg?fit=1000%2C1000&ssl=1" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Combo Individual </h5>
+                                    <!-- Product price-->
+                                    R$29,90
+                                    <p>LOJA: Pizza Hut</p>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-red text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promoção</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Brownie Recheado com Nutella</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                       
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">R$27,99</span>
+                                    R$22,99
+                                    <p>LOJA: Gourmezitos</p>
+                                </div><br>
+                                <select class="qnt1">
+                                    <option value="#">Quantidade</option>           
+                                   <option value="qt1">1</option>
+                                   <option value="qt2">2</option>
+                                   <option value="qt3">3</option>
+                                   <option value="qt4">4</option>
+                                   <option value="qt5">5</option>
+                                   </select><br>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://www.mundoboaforma.com.br/wp-content/uploads/2018/05/esfiha-vegana-de-espinafre.png" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Esfiha Vegana</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    R$8,99 - Cada<br>
+                                    <a href="habibs.html" class="loja">Loja: Habib´s</a>
+                                </div>
+                            </div>
+                            <select class="qnt">
+                                <option value="#">Quantidade</option>           
+                                <option value="qt1">1</option>
+                                <option value="qt2">2</option>
+                                <option value="qt3">3</option>
+                                <option value="qt4">4</option>
+                                <option value="qt5">5</option>
+                                </select><br>
+                    
+                            
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicionar ao carrinho</a></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                                            </div>
+                                            
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <center><button class="vermais">Ver mais</button></center><br>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Exprecity 2022</p></div>
+        </footer>
+ 
+    </body>
+</html>

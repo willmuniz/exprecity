@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+
+    background-color: orange;
+
+}
+
+* {
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+    }
+    
+
+
+
+
+.imgi{
+	position: absolute;
+	top: 9.4%;
+    width: 1325px;
+    height: 250px;
+    left:10px;
+    border-radius: 10px;
+	} 
+
+    .grid-container {
+        display: grid;
+        column-gap: 16px;
+        grid-template-columns: auto auto auto auto;
+border-radius: 10px;
+
+        position: absolute;
+        top: 56%;
+        left: 2%;
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 275px;
+        height: 320px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+ 
+    }
+    .grid-container2 {
+        display: grid;
+        column-gap: 16px;
+        grid-template-columns: auto auto auto auto;
+        border-radius: 10px;
+
+        position: absolute;
+        top: 116%;
+        left: 0%;
+      }
+      
+      .grid-item2 {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 275px;
+        height: 310px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+ 
+    }
+    
+    .ra{
+        text-decoration: none;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 25px;
+        color: rgb(10, 10, 10);
+    }
+
+.re{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: rgb(241, 127, 74);
+    position: relative;
+    top: 45%;
+    left: 5px;
+
+}
+
+.ri{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: rgb(241, 127, 74);
+    position: relative;
+    top: 32%;
+    left: -4px;
+
+}
+.ri2{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: rgb(241, 127, 74);
+    position: relative;
+    top: 29%;
+    left: -4px;
+
+}
+.ri3{
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: rgb(241, 127, 74);
+    position: relative;
+    top: 42%;
+    left: -4px;
+
+}
+
+.img2{
+    width: 150px;
+height: 150px;
+top: 2%;
+position: absolute;
+left: 5.5%;
+}
+
+.img3{
+    width: 150px;
+height: 150px;
+top: 2%;
+position: absolute;
+left: 32%;
+}
+
+
+.img4{
+    width: 150px;
+height: 150px;
+top: 4%;
+position: absolute;
+left: 57.3%;
+}
+
+.img16{
+    width: 150px;
+height: 150px;
+    top: 5%;
+    position: absolute;
+    left: 82%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(241, 255, 38);
+}
+.re:hover{
+    color: rgb(255, 0, 0);
+}
+.ra:hover{
+        color: rgb(255, 0, 0);
+}
+.grid-c{
+    display: grid;
+    grid-template-columns: 100px  100px 100px 100px  100px 100px;
+
+
+    position: absolute;
+
+    top: 230%;
+    margin-left: -78%;
+  
+    column-gap: 150px;
+  }
+  .grid-i {
+    background-color: rgba(228, 224, 224, 0.8);
+
+    padding: 20px;
+    font-size: 30px;
+    width: 275px;
+    height: 320px;
+    text-align: center;
+    border-radius: 13px;
+    font-family: 'Bebas Neue', cursive;
+  }
+.g-c{
+    display: grid;
+    grid-template-columns: 100px  100px;
+
+    position: absolute;
+
+    top: 110%;
+left: 25%;
+  
+    column-gap: 220px;
+}
+.g-i{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.img17{
+    width: 50px;
+    height:50px;
+    position: relative;
+    top: 30px;
+}
+.img18{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+}
+.img5{
+    width: 120px;
+height: 120px;
+position: relative;
+top:-37%;
+}
+
+.img6{
+    width: 200px;
+height: 120px;
+position: relative;
+top:-38%;
+left: 7px;
+}
+.img7{
+    width: 130px;
+height: 130px;
+position: relative;
+top:-39%;
+}
+
+.img8{
+    width: 150px;
+height: 150px;
+position: relative;
+top:-37%;
+}
+
+h2{
+    position: absolute;
+    left: 47%;
+    top:150%;
+    font-family: 'Alkalami', serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.f{
+font-size: 25px;
+margin-left: 2%;
+top:35%;
+position: relative;
+}
+.ins{
+margin-left: 20%;
+display: grid;
+top:40px;
+height: 40px;
+position: relative;
+
+
+}
+
+.ini{
+    margin-left: 20%;  
+    height: 0.1px;
+    top: 10px;
+    position: relative;
+}
+
+.meio{
+    margin-left: 4%;
+    display: grid;
+    top:-43%;
+    left: 40%;
+    height: 40px;
+    position: relative;
+    align-items: center;
+    
+    
+    }
+    
+    .me{
+        left: 40%;
+        margin-left: 4%;  
+        height: 0.1px;
+        top: -54%;
+        position: relative;
+       
+        
+    }
+
+
+    .img10{
+        width: 50px;
+        height:50px;
+        position: relative;
+
+        margin-bottom: -4%;
+   
+        top: -107%;
+        left:-28.1%;
+     
+
+
+
+    }
+    .img11{
+        width: 30px;
+        height:30px;
+        top:-104%;
+        position: relative;
+        left:-25%;
+        
+
+    display: inline;
+    }
+    .img12{
+        width: 60px;
+        height: 60px;
+        top:-110.2%;
+        position: relative;
+        left:-17.5%;
+   
+
+    display: inline;
+        
+
+    }
+
+    p{
+        left: 65%;
+        margin-left: 4%;  
+        height: 0.1px;
+        top: -84%;
+        position: relative;
+        font-size: 13px;
+    }
+
+    .img13{
+        width: 125px;
+        height: 120px;
+        position: relative;
+        top:-6px;
+        left: 45px;
+    }
+
+    .cop{
+        position: absolute;
+               background-color: rgb(255, 248, 184);
+               width: 1588px;
+        height: 120px;  
+            line-height:30px;
+        top:155%;
+        margin-left: -83%;
+        
+    }
+
+    .copy{
+        left: 5%;
+        top: 24%;
+        position: relative;
+        font-size: 15px;
+        color:red
+    }
+
+    .nom{
+        position: absolute;
+               background-color: rgb(255, 248, 184);
+               width: 1560px;
+        height: 40px;  
+            line-height:30px;
+        top:2%;
+        left: 11.5%;
+        margin-left: -11%;
+        border-radius: 10px;
+    }
+
+    .img14{
+    width: 50px;
+    height: 50px;
+    position: relative;
+top:-4px;
+}
+    .img15{
+        width: 55px;
+        height: 40px;
+        right: -8px;
+        }
+
+
+.p1{
+    position: relative;
+    top: 44%;
+    left: -2%;
+}
+.p2{
+    position: relative;
+    top: 52%;
+    left: -2%;
+}
+.p3{
+    position: relative;
+    top: 42%;
+    left: -2%;
+}
+.p4{
+    position: relative;
+    top: 42%;
+    left: -2%;
+}
+.p5{
+    position: relative;
+    top: 52%;
+    left: -2%;
+}
+.p6{
+    position: relative;
+    top: 52%;
+    left: -2%;
+}
+.p7{
+    position: relative;
+    top: 52%;
+    left: -2%;
+}
+.p8{
+    position: relative;
+    top: 52%;
+    left: -2%;
+}
+.b1{
+    position: relative;
+    top: 52%;
+    left: -18%;
+height: 30px;
+}
+.b2{
+    position: relative;
+    top: 63%;
+    left: -18%;
+    height: 30px;
+}
+.b3{
+    position: relative;
+    top: 52%;
+    left: -18%;
+    height: 30px;
+}
+.b4{
+    position: relative;
+    top: 52%;
+    left: -18%;
+    height: 30px;
+}
+.b5{
+    position: relative;
+    top: 62%;
+    left: -18%;
+height: 30px;
+}
+.b6{
+    position: relative;
+    top: 62%;
+    left: -18%;
+    height: 30px;
+}
+.b7{
+    position: relative;
+    top: 62%;
+    left: -18%;
+    height: 30px;
+}
+.b8{
+    position: relative;
+    top: 62%;
+    left: -18%;
+    height: 30px;
+}
+
+.b1:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b2:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b3:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b4:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b5:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b6:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b7:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.b8:hover{
+    background-color: rgb(255, 118, 38);
+    border-radius: 5px;
+
+}
+.qnt1{
+    position: relative;
+    top: 42%;
+    left: 28%;
+    text-align: center;
+}
+.qnt12{
+    position: relative;
+    top: 52%;
+    left: 28%;
+    text-align: center;
+}
+.qnt2{
+    position: relative;
+    top: 50%;
+    left: 28%;
+    text-align: center;
+}

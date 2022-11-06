@@ -1,0 +1,30 @@
+body{
+    background-color: orangered;
+}
+input{
+    text-align: center;
+    width: 200px;
+}
+
+.form1{
+    background-color: rgb(255, 184, 166);
+    width: 300px;
+    height: 925px;
+    border-radius: 10px;
+    position: relative;
+
+  
+}
+
+
+.botao{
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.botao:hover{
+    background-color: red;
+}
